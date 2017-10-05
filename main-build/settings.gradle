@@ -2,7 +2,6 @@
 pluginManagement {
     repositories {
         ivy { url = uri("build/tmp/empty-plugin-repository") }
-        gradlePluginPortal()
     }
     resolutionStrategy {
         eachPlugin {

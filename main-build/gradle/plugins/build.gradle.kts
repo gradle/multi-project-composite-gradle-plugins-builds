@@ -10,7 +10,7 @@ gradlePlugin {
     (plugins) {
         "local" {
             id = "com.example.local-plugin"
-            implementationClass = "com.example.gradle.ExampleLocalPlugin"
+            implementationClass = "com.example.local.ExampleLocalPlugin"
         }
     }
 }
