@@ -1,8 +1,5 @@
 
 pluginManagement {
-    repositories {
-        ivy { url = uri("build/tmp/empty-plugin-repository") }
-    }
     resolutionStrategy {
         eachPlugin {
             if(requested.id.id == "com.example.shared-plugin") {
