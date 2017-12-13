@@ -17,4 +17,4 @@ includeBuild("../shared-plugins")
 
 include("core", "cli")
 
-rootProject.name = 'main-build'
+rootProject.name = "main-build"
